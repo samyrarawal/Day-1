@@ -1,0 +1,40 @@
+/* Reset some default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the whole page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eef6ff;
+  color: #222;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Center content box */
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 50px 70px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Main heading */
+h1 {
+  font-size: 64px;
+  margin-bottom: 15px;
+  color: #2563eb;
+}
+
+/* Subtitle */
+p {
+  font-size: 20px;
+  color: #555;
+}
